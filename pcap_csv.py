@@ -99,13 +99,13 @@ def convert_pcap_to_csv(pcap_file):
     df['wlan.ssid'] = df['wlan.ssid'].apply(hex_to_ascii)
 
     # Save the modified DataFrame to a CSV file
-    output_dir = "C:\\Users\\Stude\\Desktop\\Test"
+    output_dir = "Your Directory"
     output_file = os.path.join(output_dir, f"{os.path.splitext(os.path.basename(pcap_file))[0]}_ascii.csv")
     df.to_csv(output_file, index=False)
     return True
 
 # Define input directory path
-input_directory = "C:\\Users\\Stude\\Desktop\\TRADET8\\Wireshark\\TShark"
+input_directory = "Your Directory"
 unziped = []
 
 # Search input directory for pcap files and convert them to csv
