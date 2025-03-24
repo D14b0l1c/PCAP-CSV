@@ -35,7 +35,7 @@ WPA_PASSWORD = "Induction"
 WPA_SSID = "Coherer"
 ```
 
-> 📥 You can test this using [wpa-Induction.pcap](https://wiki.wireshark.org/SampleCaptures#wifi--wireless-lan-captures--80211), a sample 802.11 capture that uses:
+> You can test this using [wpa-Induction.pcap](https://wiki.wireshark.org/SampleCaptures#wifi--wireless-lan-captures--80211), a sample 802.11 capture that uses:
 > - **WPA Password:** `Induction`  
 > - **SSID:** `Coherer`
 
