@@ -46,5 +46,5 @@ WPA_SSID = "Coherer"
 
 | Script Name                    | Description                                                                 |
 |-------------------------------|-----------------------------------------------------------------------------|
-| `encrypted_unencrypted_pcap_csv.py` | Converts both encrypted and unencrypted `.pcap` files to `.csv`, but **does not include WPA decryption**. Use this when working with open or already-decrypted captures. |
+| `encrypted_unencrypted_pcap_csv.py` | Converts both encrypted and already existing unencrypted `.pcap` files to `.csv`, but **does not include WPA decryption**. Use this when working with open or already-decrypted captures. |
 | `decrypt_pcap_csv.py`         | Adds support for WPA/WPA2 decryption by injecting known SSID and password into `tshark`. Ideal for WPA-encrypted `.pcap` files like `wpa-Induction.pcap`.                 |
